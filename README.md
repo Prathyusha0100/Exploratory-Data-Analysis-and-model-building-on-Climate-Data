@@ -33,8 +33,10 @@ To set up the environment and run the model, follow these steps:
      git clone https://github.com/your-username/CNN-Habitat-Classifier.git
      cd CNN-Habitat-Classifier
   2. **Install dependencies**
+      ```bash
      pip install -r requirements.txt
-  3. **Run the Jupyter Notebook**
+  4. **Run the Jupyter Notebook**
+      ```bash
      jupyter notebook
 
 **Dataset**
