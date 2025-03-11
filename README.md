@@ -10,13 +10,13 @@ This project focuses on image classification using a Convolutional Neural Networ
 
 **Features** 
 **Custom CNN Architecture:**  
-- 5 Convolutional Layers with adjustable filters **(32, 64, …).**  
+- 5 Convolutional Layers with adjustable filters **(32, 64, 128, 256, 512).**  
 - Dropout & Batch Normalization for improved generalization.  
 - ReLU Activation & Max-Pooling for feature extraction.  
 - Dense Layer with Softmax Activation for classification.  
 
 **Hyperparameter Exploration:**  
-- Number of filters per layer: 32, 64, …  
+- Number of filters per layer: 32, 64, 128, 256, 512 
 - Dropout Rates: 20%, 30%  
 - Data Augmentation: Yes/No  
 - Batch Normalization: Yes/No  
